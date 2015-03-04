@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>ARIA Bones :: Estructura Básica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <!-- El role "banner" se agrega en el elemento <header> para indicar que es el header principal ó título interno de la página --> 
+    <header role="banner">
+        
+        <!-- Recuerda que hay etiquetas y atributos HTML semánticos que se utilizan muy poco, como <abbr> -->
+        <h1><abbr title="Accessible Rich Internet Applications">ARIA</abbr> Bones</h1>
+        
+        <!-- El role "navigation" ise agrega al elemento que contiene la navegación del sitio -->
+        <nav role="navigation">
+            
+            Menú de navegación del sitio
+            
+        </nav>
+        
+    </header>
+    
+    <!-- El role "main" se agrega aquí porque contiene el contenido principal del documento, y se recomienda que se agregue junto a la etiqueta <main> para que user agents implementen correctamente el mapeo de roles -->
+    <main role="main">
+
+        <!-- Este <section> usa la propiedad ARIA "labelled-by" para indicar dónde se encuentra el título de la sección. Su valor debe ser igual al ID único del elemento que contiene el título de <section> -->
+        <section aria-labelledby="titulo-seccion">
+
+            <h2 id="titulo-seccion">Título de la Sección</h2>
+            
+            <!-- Este <article> utiliza el role "article" para indicar que esta sección de la página contiene una parte del contenido independiente del resto del contenido. Se recomienda que se agregue con la etiqueta <article> para que user agents implementen correctamente el mapeo de roles -->
+            <article role="article">
+                
+                Este article contiene un bloque independiente de información
+
+            </article>
+            
+        </section>
+
+        <!-- El role "complementary" se agrega para indicar que el <aside> contiene información que soporta al contenido principal y que no puede estar separado ya que pierde sentido sin su contexto -->
+        <aside role="complementary">
+
+            Este aside contiene información extra y complementaria al contenido principal
+
+        </aside>
+        
+    </main>
+    
+    <!-- El role "contentinfo" se agrega al footer que contiene metadata del contenido y que tamnbién corresponde al documento padre -->
+    <footer role="contentinfo">
+
+        Este footer contiene información sobre el contenido del documento
+
+    </footer>
+    
+</body>
+</html>

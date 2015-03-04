@@ -1,39 +1,28 @@
-ARIA Bones - Simplifying WAI-ARIA
-===================================================
+ARIA Bones - Simplificando ARIA
+===
 
-- Author: Ian Devlin [iandevlin.com](http://iandevlin.com)
+- Autor: Ian Devlin [iandevlin.com](http://iandevlin.com)
 - Twitter: [@iandevlin](http://twitter.com/iandevlin)
 - Website: [ariabones.com](http://ariabones.com)
 - Twitter: [@ariabones](http://twitter.com/ariabones)
+- Traducción: Jorge Epuñan H.
 
-Purpose
-=======
+##Propósito
 
-The main aim of this project is to help you with WAI-ARIA, using it as a guide via the inline comments when building your own pages.
+El propósito de este proyecto es ayudarte a tener una sólida estructura [WAI-ARIA](http://www.w3.org/TR/wai-aria/roles), usando la que se te entrega comentada como guía base para que las uses en tus propias plantillas.
 
-Features
-========
+##Características
 
-- Contains the most popular WAI-ARIA roles and properties and how they might be used
-- If native HTML elements default to using the correct roles, this is pointed out where required
-- Inline documentation
-- MIT license
+- Contiene los roles y propiedades [WAI-ARIA](http://www.w3.org/TR/wai-aria/roles) más populares y muestra cómo utilizarlos.
+- Documentación en cada línea de código.
+- Licencia MIT.
 
-Documentation
-=============
-The documentation is contained within inline comments in the various files.
+#Fuente
 
-Sources
-=======
+A continuación se listan los fuentes que se utilizaron para crear este proyecto:
 
-A number of excellent sources that are continously used throughout this project are:
-
+- [WAI-ARIA](http://www.w3.org/TR/wai-aria/roles)
 - [WebAIM](http://webaim.org)
 - [A11y Project](http://a11yproject.com)
 - [The Paciello Group](http://www.paciellogroup.com)
 - [HTML5 Accessibility](http://www.html5accessibility.com/)
-
-Contribute
-==========
-
-You are of course welcome to contribute, this is what GitHub is for.
